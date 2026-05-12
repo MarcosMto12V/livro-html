@@ -3,7 +3,7 @@
 margin: 0;
 padding: 0;
 box-sizing:  border-box;
-
+/* background-image:url("../imagem-livro/fundo.png");*/
 }
 
 /* Declarações das variáveis CSS (Custom Propeties)*/
@@ -51,7 +51,7 @@ box-sizing:  border-box;
 
 Body{
 font-family: var(--fonte-principal);
-background-color: var(--cor-fundo);
+background-color:#8C8C8C;
 color: var(--cor-texto);
 line-height: 1.6;
 
@@ -162,7 +162,7 @@ padding: var(--espaco-lg) var(--espaco-xxl);
     font-weight: 800;
     line-height: 1.1;
     letter-spacing: -0.03rem;
-    color: var(--cor-texto);
+    color: #000000;
     max-width: 56rem;
     text-align: center;
     margin-bottom: var(--espaco-md);
@@ -202,7 +202,7 @@ color: var(--cor-primaria);
 
 .sobre .container {
 
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     align-items: center;
@@ -241,7 +241,7 @@ margin-bottom: var(--espaco-sm);
 
 .sobre-pilares {
 
-    background-color: var(--cor-branca);
+    background-color: #595859;
     border: 1px solid var(--cor-borda);
     border-radius: var(--raio-lg);
     padding: var(--espaco-xl);
@@ -253,7 +253,7 @@ margin-bottom: var(--espaco-sm);
 
     font-size: 1.+375rem;
     font-weight: 700;
-    color: var(--cor-texto);
+    color: #000000;
     margin-bottom: var(--espaco-lg);
 
 
@@ -278,7 +278,7 @@ gap: var(--espaco-sm);
 
 .pilar-icone {
 
-    background-color: color-mix(in srgb, var(--cor-primaria) 10%, transparent);
+    background-color: color-mix(in srgb, #595859 30%, transparent);
     padding: var(--espaco-xs);
     border-radius: var(--raio-sm);
 }
@@ -286,7 +286,7 @@ gap: var(--espaco-sm);
 .pilar-titulo {
     display: block;
     font-weight: 600;
-    color: var(--cor-texto);
+    color: #000000;
     margin-bottom: 2px;
 
 
@@ -295,7 +295,7 @@ gap: var(--espaco-sm);
 .pilar-descricao {
 
     font-size: 0.875rem;
-    color: var(--cor-topo);
+    color: #000000;
     line-height: 1.5;
 
 }
@@ -344,6 +344,8 @@ gap: var(--espaco-sm);
     border-radius: var(--raio-lg);
     padding: var(--espaco-xl);
     transition: transform 0.2s ease;
+    
+
 }
 
 .card:hover {
@@ -411,9 +413,10 @@ justify-content: center;
 
 }
 
+
 .avatar {
-width: 112px;
-height: 112px;
+width: 250px;
+height: 300px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -421,6 +424,7 @@ font-size:  1.75rem;
 font-weight: 700;
 border-radius: 50%;
 margin-bottom: var(--espaco-md);
+background-color: #000000;
 }
 
 
@@ -428,8 +432,8 @@ margin-bottom: var(--espaco-md);
 
     font-size: 0.075rem;
     font-weight: 600;
-    color: var(--cor-primaria);
-    margin-bottom: var(--espaco-sm);
+    color: #000000;
+    margin-bottom: var(--espaco-lg);
 
 
 }
@@ -439,3 +443,5 @@ margin-bottom: var(--espaco-md);
     font-size: 0.875rem;
     color: var(--cor-topo);
 }
+
+
