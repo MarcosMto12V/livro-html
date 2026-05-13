@@ -50,10 +50,10 @@ box-sizing:  border-box;
 
 
 Body{
-font-family: var(--fonte-principal);
+font-family: Garamond;
 background-color:#8C8C8C;
 color: var(--cor-texto);
-line-height: 1.6;
+line-height: 1.0;
 
 }
 
